@@ -25,8 +25,6 @@ git help config
 
 git config -h 
 
-
-
 ## 2. git的基本操作
 
 #### 1.git本地仓库目录初始化
@@ -35,8 +33,6 @@ git config -h
 
 @2 git init命令初始化
 
-
-
 ### 2.git工作区的几个工作状态
 
-
+杭州额
