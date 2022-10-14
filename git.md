@@ -79,3 +79,32 @@ git commit -m "提交的消息"
 7. 修改的文件提交仓库
 
 ![](C:\Users\zxm_pc\AppData\Roaming\marktext\images\2022-10-13-22-51-59-image.png)
+
+8. 撤销对文件的修改（从仓库还原、覆盖文件）
+
+```git
+git checkout --xx(文件名)
+```
+
+![](C:\Users\zxm_pc\AppData\Roaming\marktext\images\2022-10-14-08-07-04-image.png)
+
+9. 一次性提交修改和未跟踪文件
+
+```git
+git add .
+```
+
+10. 取消暂存区的文件
+
+```git
+git reset Head
+git reset Head .(一次性取消)
+```
+
+![](C:\Users\zxm_pc\AppData\Roaming\marktext\images\2022-10-14-08-32-24-image.png)
+
+11. 跳过暂存区直接提交到仓库区
+
+```git
+git commit -a -m "xxxx"
+```
